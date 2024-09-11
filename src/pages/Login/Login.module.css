@@ -1,0 +1,46 @@
+
+
+.login form {
+  margin: 50px auto;
+  max-width: 350px;
+  padding: 16px;
+}
+
+.login button {
+  min-width: 50px;
+  padding: 8px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.login button:hover {
+  background-color: #2980b9;
+  
+}
+
+.row {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.loginError {
+  color: red;
+  font-size: 12px;
+  padding: 4px;
+  min-height: 20px;
+  margin-top: 5px;
+}
+
+@media screen and (max-width:350px) {
+  
+
+  .row {
+    flex-direction: column;
+  }
+
+}

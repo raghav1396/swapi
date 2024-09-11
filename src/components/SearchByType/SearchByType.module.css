@@ -1,0 +1,38 @@
+.container {
+    margin: 10px;
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 16px;
+}
+
+.form select{
+    padding: 8px;
+}
+.form input {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.form button {
+    min-width: 50px;
+    padding: 8px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.form button:hover {
+    background-color: #2980b9;
+    
+}
+
+@media screen and (max-width:412px) {
+    .form {
+        flex-direction: column;
+        gap: 4px;
+        margin: 4px 8px;
+    }
+}
